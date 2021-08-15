@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 500px;
+  border: 2px solid red; }
+  .wrapper .element {
+    width: 20%;
+    height: 100px;
+    background-color: blue; }
+    @media screen and (max-width: 768px) {
+      .wrapper .element {
+        width: 40%;
+        height: 100px;
+        background-color: green; } }
+    @media screen and (max-width: 576px) {
+      .wrapper .element {
+        width: 60%;
+        height: 100px;
+        background-color: gold; } }
+
+.name {
+  height: 300px;
+  margin-top: 20px; }
+  .name .ivanna {
+    justify-content: space-around; }
+    .name .ivanna .item {
+      height: 100px;
+      background-color: pink;
+      margin: 10px; }
